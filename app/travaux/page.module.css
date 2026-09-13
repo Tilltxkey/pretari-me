@@ -1,0 +1,84 @@
+.pageBanner {
+  padding: clamp(48px, 10vw, 100px) 0 clamp(32px, 6vw, 56px);
+  border-bottom: 1px solid var(--border);
+}
+
+.pageBanner :global(.label) {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.pageBanner :global(.titleXl) {
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.pageBanner :global(.body) {
+  max-width: 640px;
+}
+
+.capabilities {
+  padding: clamp(48px, 8vw, 80px) 0;
+  border-bottom: 1px solid var(--border);
+  background: rgba(var(--bg-rgb), 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.capGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(24px, 4vw, 40px);
+}
+
+.capItem :global(.label) {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+.capItem :global(.titleMd) {
+  margin-bottom: 8px;
+}
+
+.capItem :global(.bodySm) {
+  font-size: 0.85rem;
+}
+
+.honesty {
+  padding: clamp(40px, 6vw, 64px) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.honestyText {
+  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 760px;
+  font-weight: 450;
+  letter-spacing: -0.01em;
+}
+
+.ctaBanner {
+  padding: clamp(48px, 8vw, 80px) 0;
+  text-align: center;
+}
+
+.ctaBanner :global(.titleLg) {
+  margin-bottom: 16px;
+}
+
+.ctaBanner :global(.body) {
+  margin: 0 auto 32px;
+}
+
+@media (max-width: 1024px) {
+  .capGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .capGrid {
+    grid-template-columns: 1fr;
+  }
+}
