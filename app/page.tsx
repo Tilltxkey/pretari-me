@@ -11,7 +11,9 @@ export default function Home() {
           <div className={styles.heroContent}>
             <span className="label">Design &amp; Ingénierie logicielle</span>
             <h1 className="titleXl">
-              Le design rencontre<br />l'ingénierie.
+              La nouvelle façon <br />de faire des logiciels.
+                  {/* ─── Le design rencontre<br />l'ingénierie. ─── */}
+                  {/* ─── SERVICES PREVIEW ─── */}
             </h1>
             <p className="body">
               Nous concevons et développons des produits numériques sur mesure, du concept au code.

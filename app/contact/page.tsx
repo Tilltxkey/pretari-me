@@ -36,7 +36,7 @@ export default function Contact() {
             <div className={styles.contactCard}>
               <span className="label">Téléphone</span>
               <h3 className="titleMd"><a href="tel:+50955195193">+509 5519-5193</a></h3>
-              <h3 className="titleMd"><a href="tel:+50936306762">+509 3630-6762</a></h3>
+              <h3 className="titleMd"><a href="tel:+50948638067">+509 4863-8067</a></h3>
             </div>
 
             <div className={styles.contactCard}>
